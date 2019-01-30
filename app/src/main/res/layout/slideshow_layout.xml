@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView_id"
+        android:src="@drawable/annual1"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/annual"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/children"
+        android:src="@drawable/child1"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/children"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/christmas"
+        android:src="@drawable/chris1"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/christmas"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/diwali"
+        android:src="@drawable/diwali1"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/diwali"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/earth"
+        android:src="@drawable/earth1"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/earth"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/environment"
+        android:src="@drawable/env1"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/environment"/>
+
+
+
+</LinearLayout>
